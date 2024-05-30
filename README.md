@@ -119,6 +119,8 @@ And confirm that your DB changes are reflected.
 
 ## How to use the App
 
+![services](https://github.com/edisnake/redirect-service/assets/1470750/6419ba70-b4ca-4158-b0a9-b606d51caaa2)
+
 - Create the pools and domains by using the OpenAPI helper page:
     http://localhost:8006/v1/docs#/Pools/create_pool_resource_v1_pools_post
 
@@ -147,3 +149,4 @@ And confirm that your DB changes are reflected.
 http://localhost:8006/v1/redirect_domain/1 which will redirect you using the logic in the [service description](#redirect-domain-service).
 - Logs for database statements as well as requests and responses are saved into the database thorough a middleware and a logger handler,
 you can review them in http://localhost:8006/v1/docs#/Logs/get_logs_resource_v1_logs_get
+
